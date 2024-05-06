@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'HeaderFont';
+  font-style: normal;
+  font-weight: normal;
+  src: url('Textures/Fonts/5ceta_mono.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'BodyFont';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Textures/Fonts/Vactory.woff') format('woff');
+    }
+
+/* Apply the font to paragraph text */
+p {
+  font-family: 'BodyFont', serif;
+  font-size: 20px;
+}
+#solo-image {
+  float: left; /* Float the image to the left */
+  margin-right: 10px; /* Space between the image and text */
+    margin-top: 10px;
+    width: 20%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+ /* Base styles for the header */
+ .header {
+  background-color: #013457; /* Light gray background */
+  padding: 20px; /* Padding around text */
+  text-align: center; /* Center-align text */
+  font-family: 'HeaderFont', sans-serif;
+  font-size: 16px; /* Font size */
+  color: #ffffff;
+  border-bottom: 1px solid #ccc; /* Border at the bottom */
+}
+
+/* Base styles for the navigation bar */
+.navbar {
+  background-color: #013457; /* Dark gray background */
+  overflow: hidden; /* Hide overflow */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styling for the links inside the navigation bar */
+.navbar a {
+  font-family: 'HeaderFont', sans-serif;
+  float: left; /* Align links to the left */
+  display: block; /* Display as block elements */
+  color: white; /* Text color */
+  text-align: center; /* Center-align text */
+  padding: 14px 16px; /* Padding */
+  text-decoration: none; /* Remove underline */
+  font-size: 10px; /* Font size */
+}
+
+/* Hover effect for links */
+.navbar a:hover {
+  background-color: #005964; /* Background color on hover */
+}
+
+/* Active link styling */
+.navbar a.active {
+  background-color: #03558b; /* Background color for active link */
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/*Contact page*/
+
+ /* Style for the LinkedIn image */
+ .linkedin-image {
+  width: 24px; /* Width of the LinkedIn image */
+  height: 24px; /* Height of the LinkedIn image */
+  margin-right: 10px; /* Margin to the right of the image */
+}
+/* Style for the email image */
+.email-image {
+  width: 24px; /* Width of the LinkedIn image */
+  height: 24px; /* Height of the LinkedIn image */
+  margin-top: 10px;
+  margin-right: 10px; /* Margin to the right of the image */
+}
+a {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Text color */
+}
+ /* Hover effect for links */
+ a:hover {
+  color: #76a6ff; /* Color on hover */
+}
+
+ .linkedin-text {
+  position: absolute; /* Absolute positioning */
+  top: 15%; /* Middle of the container */
+}
+.linkedin-container {
+  position: relative; /* Relative positioning for container */
+  display: inline-block; /* Display inline-block */
+}
